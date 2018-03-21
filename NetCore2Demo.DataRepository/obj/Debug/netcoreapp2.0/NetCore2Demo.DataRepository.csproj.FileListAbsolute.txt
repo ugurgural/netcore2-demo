@@ -1,0 +1,10 @@
+/Users/mehmetugurgural/Git/NetCore2Demo/NetCore2Demo.DataRepository/obj/Debug/netcoreapp2.0/NetCore2Demo.DataRepository.csproj.CoreCompileInputs.cache
+/Users/mehmetugurgural/Git/NetCore2Demo/NetCore2Demo.DataRepository/obj/Debug/netcoreapp2.0/NetCore2Demo.DataRepository.AssemblyInfoInputs.cache
+/Users/mehmetugurgural/Git/NetCore2Demo/NetCore2Demo.DataRepository/obj/Debug/netcoreapp2.0/NetCore2Demo.DataRepository.AssemblyInfo.cs
+/Users/mehmetugurgural/Git/NetCore2Demo/NetCore2Demo.DataRepository/bin/Debug/netcoreapp2.0/NetCore2Demo.DataRepository.deps.json
+/Users/mehmetugurgural/Git/NetCore2Demo/NetCore2Demo.DataRepository/bin/Debug/netcoreapp2.0/NetCore2Demo.DataRepository.dll
+/Users/mehmetugurgural/Git/NetCore2Demo/NetCore2Demo.DataRepository/bin/Debug/netcoreapp2.0/NetCore2Demo.DataRepository.pdb
+/Users/mehmetugurgural/Git/NetCore2Demo/NetCore2Demo.DataRepository/bin/Debug/netcoreapp2.0/NetCore2Demo.Entities.dll
+/Users/mehmetugurgural/Git/NetCore2Demo/NetCore2Demo.DataRepository/bin/Debug/netcoreapp2.0/NetCore2Demo.Entities.pdb
+/Users/mehmetugurgural/Git/NetCore2Demo/NetCore2Demo.DataRepository/obj/Debug/netcoreapp2.0/NetCore2Demo.DataRepository.dll
+/Users/mehmetugurgural/Git/NetCore2Demo/NetCore2Demo.DataRepository/obj/Debug/netcoreapp2.0/NetCore2Demo.DataRepository.pdb

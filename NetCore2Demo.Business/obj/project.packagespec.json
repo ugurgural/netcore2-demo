@@ -1,0 +1,50 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/mehmetugurgural/Git/NetCore2Demo/NetCore2Demo.Business/NetCore2Demo.Business.csproj",
+    "projectName": "NetCore2Demo.Business",
+    "projectPath": "/Users/mehmetugurgural/Git/NetCore2Demo/NetCore2Demo.Business/NetCore2Demo.Business.csproj",
+    "outputPath": "/Users/mehmetugurgural/Git/NetCore2Demo/NetCore2Demo.Business/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {
+          "/Users/mehmetugurgural/Git/NetCore2Demo/NetCore2Demo.DataRepository/NetCore2Demo.DataRepository.csproj": {
+            "projectPath": "/Users/mehmetugurgural/Git/NetCore2Demo/NetCore2Demo.DataRepository/NetCore2Demo.DataRepository.csproj"
+          },
+          "/Users/mehmetugurgural/Git/NetCore2Demo/NetCore2Demo.Entities/NetCore2Demo.Entities.csproj": {
+            "projectPath": "/Users/mehmetugurgural/Git/NetCore2Demo/NetCore2Demo.Entities/NetCore2Demo.Entities.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

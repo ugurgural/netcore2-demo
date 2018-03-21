@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b09d5284-b234-4ed5-9998-90f7fd44e152" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.NetCore2Demo/.idea/contentModel.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo.Business/Service/ProductService.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo.DataRepository/Context/ContextFactory.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo.DataRepository/Context/DataContext.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo.DataRepository/Context/IContextFactory.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo.DataRepository/Context/IDbContext.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo.DataRepository/Repositories/Repository.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo.DataRepository/UnitOfWork/UnitOfWork.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo.Entities/Base/BaseEntity.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo.Entities/Config/ConnectionSettings.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo.Entities/Config/JwtSettings.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo.Entities/Domain/Product.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo.Entities/Dto/LoginModel.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo.Entities/Dto/RegisterModel.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo.sln" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/Controllers/AccountController.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/Controllers/HomeController.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/Models/ErrorViewModel.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/NetCore2Demo.csproj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/Program.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/Startup.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/Views/Account/Login.cshtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/Views/Home/Index.cshtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/Views/Shared/Error.cshtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/Views/Shared/_Layout.cshtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/Views/Shared/_ValidationScriptsPartial.cshtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/Views/_ViewImports.cshtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/Views/_ViewStart.cshtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/appsettings.Development.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/appsettings.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/bundleconfig.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/css/site.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/css/site.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/favicon.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/images/banner1.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/images/banner2.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/images/banner3.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/images/banner4.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/js/site.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/js/site.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/lib/bootstrap/.bower.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/lib/bootstrap/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/lib/bootstrap/dist/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/lib/bootstrap/dist/js/bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/lib/bootstrap/dist/js/npm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/lib/jquery-validation-unobtrusive/.bower.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/lib/jquery-validation/.bower.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/lib/jquery-validation/LICENSE.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/lib/jquery-validation/dist/additional-methods.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/lib/jquery-validation/dist/jquery.validate.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/lib/jquery/.bower.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/lib/jquery/LICENSE.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/lib/jquery/dist/jquery.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/lib/jquery/dist/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/NetCore2Demo/wwwroot/lib/jquery/dist/jquery.min.map" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NetCore2Demo/Startup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="50" column="36" lean-forward="false" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+              <folding>
+                <marker date="1521672212823" expanded="true" signature="6:519" ph="..." />
+                <marker date="1521672212823" expanded="true" signature="543:4335" ph="{...}" />
+                <marker date="1521672212823" expanded="true" signature="570:4333" ph="{...}" />
+                <marker date="1521672212823" expanded="true" signature="624:1012" ph="{...}" />
+                <marker date="1521672212823" expanded="true" signature="1239:3600" ph="{...}" />
+                <marker date="1521672212823" expanded="true" signature="2177:2923" ph="{...}" />
+                <marker date="1521672212823" expanded="true" signature="2997:3588" ph="{...}" />
+                <marker date="1521672212823" expanded="true" signature="3178:3278" ph="/* If the LoginPath isn't set, ASP.NET Core defaults ... */" />
+                <marker date="1521672212823" expanded="true" signature="3349:3463" ph="/* If the AccessDeniedPath isn't set, ASP.NET Core defaults ... */" />
+                <marker date="1521672212823" expanded="true" signature="3788:4327" ph="{...}" />
+                <marker date="1521672212823" expanded="true" signature="3835:3912" ph="{...}" />
+                <marker date="1521672212823" expanded="true" signature="3929:4013" ph="{...}" />
+                <marker date="1521672212823" expanded="true" signature="4118:4289" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplicationUser.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NetCore2Demo.Entities/Config/ApplicationUser.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <folding>
+                <marker date="1521672892191" expanded="true" signature="76:149" ph="{...}" />
+                <marker date="1521672892191" expanded="true" signature="126:147" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login.cshtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NetCore2Demo/Views/Account/Login.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+              <folding>
+                <marker date="1521673427727" expanded="true" signature="0:57" ph="@..." />
+                <marker date="1521673427727" expanded="true" signature="156:558" ph="&lt;form.../&gt;" />
+                <marker date="1521673427727" expanded="true" signature="211:338" ph="&lt;div.../&gt;" />
+                <marker date="1521673427727" expanded="true" signature="343:481" ph="&lt;div.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Register.cshtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NetCore2Demo/Views/Account/Register.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+              <folding>
+                <marker date="1521667603632" expanded="true" signature="0:60" ph="@..." />
+                <marker date="1521667603632" expanded="true" signature="81:485" ph="&lt;form.../&gt;" />
+                <marker date="1521667603632" expanded="true" signature="139:266" ph="&lt;div.../&gt;" />
+                <marker date="1521667603632" expanded="true" signature="271:409" ph="&lt;div.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountController.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NetCore2Demo/Controllers/AccountController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="426">
+              <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+              <folding>
+                <marker date="1521673002036" expanded="true" signature="6:179" ph="..." />
+                <marker date="1521673002036" expanded="true" signature="215:2607" ph="{...}" />
+                <marker date="1521673002036" expanded="true" signature="302:2605" ph="{...}" />
+                <marker date="1521673002036" expanded="true" signature="604:708" ph="{...}" />
+                <marker date="1521673002036" expanded="true" signature="779:826" ph="{...}" />
+                <marker date="1521673002036" expanded="true" signature="900:947" ph="{...}" />
+                <marker date="1521673002036" expanded="true" signature="1045:1881" ph="{...}" />
+                <marker date="1521673002036" expanded="true" signature="1091:1770" ph="{...}" />
+                <marker date="1521673002036" expanded="true" signature="1122:1284" ph="/* This doesn't count login failures towards account lockout ... */" />
+                <marker date="1521673002036" expanded="true" signature="1454:1573" ph="{...}" />
+                <marker date="1521673002036" expanded="true" signature="1594:1756" ph="{...}" />
+                <marker date="1521673002036" expanded="true" signature="1985:2599" ph="{...}" />
+                <marker date="1521673002036" expanded="true" signature="2031:2488" ph="{...}" />
+                <marker date="1521673002036" expanded="true" signature="2263:2457" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataContext.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NetCore2Demo.DataRepository/Context/DataContext.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1521673002042" expanded="true" signature="6:165" ph="..." />
+                <marker date="1521673002042" expanded="true" signature="212:876" ph="{...}" />
+                <marker date="1521673002042" expanded="true" signature="292:874" ph="{...}" />
+                <marker date="1521673002042" expanded="true" signature="307:477" ph="/// Initializes a new instance of the &lt;see cref=&quot;DataContext&quot;/&gt; class. ... " />
+                <marker date="1521673002042" expanded="true" signature="558:578" ph="{...}" />
+                <marker date="1521673002042" expanded="true" signature="588:671" ph="/// Get or sets the product data model ... " />
+                <marker date="1521673002042" expanded="true" signature="800:868" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContextFactory.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NetCore2Demo.DataRepository/Context/ContextFactory.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+              <folding>
+                <marker date="1521659540840" expanded="false" signature="6:151" ph="..." />
+                <marker date="1521659540840" expanded="true" signature="198:1755" ph="{...}" />
+                <marker date="1521659540840" expanded="true" signature="205:320" ph="/// Entity Framework context service ... " />
+                <marker date="1521659540840" expanded="true" signature="370:1753" ph="{...}" />
+                <marker date="1521659540840" expanded="true" signature="459:726" ph="/// Initializes a new instance of the &lt;see cref=&quot;ContextFactory&quot;/&gt; class. ... " />
+                <marker date="1521659540840" expanded="true" signature="804:880" ph="{...}" />
+                <marker date="1521659540840" expanded="true" signature="1061:1458" ph="{...}" />
+                <marker date="1521659540840" expanded="true" signature="1508:1747" ph="{...}" />
+                <marker date="1521659540840" expanded="true" signature="1604:1737" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IDbContext.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NetCore2Demo.DataRepository/Context/IDbContext.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="703">
+              <caret line="54" column="93" lean-forward="false" selection-start-line="54" selection-start-column="93" selection-end-line="54" selection-end-column="93" />
+              <folding>
+                <marker date="1521654579994" expanded="false" signature="6:90" ph="..." />
+                <marker date="1521654579994" expanded="true" signature="137:5488" ph="{...}" />
+                <marker date="1521654579994" expanded="true" signature="170:5486" ph="{...}" />
+                <marker date="1521654579994" expanded="true" signature="185:839" ph="///     Saves all changes made in this context to the database. ... " />
+                <marker date="1521654579994" expanded="true" signature="876:1820" ph="///     Saves all changes made in this context to the database. ... " />
+                <marker date="1521654579994" expanded="true" signature="1887:3149" ph="///     Asynchronously saves all changes made in this context to the database. ... " />
+                <marker date="1521654579994" expanded="true" signature="3232:4784" ph="///     Asynchronously saves all changes made in this context to the database. ... " />
+                <marker date="1521654579994" expanded="true" signature="4899:5002" ph="///     Releases the allocated resources for this context. ... " />
+                <marker date="1521654579994" expanded="true" signature="5036:5407" ph="///     Creates a &lt;see cref=&quot;T:Microsoft.EntityFrameworkCore.DbSet`1&quot; /&gt; that can be used to query and save insta ... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NetCore2Demo/Controllers/HomeController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+              <folding>
+                <marker date="1521664820505" expanded="false" signature="6:199" ph="..." />
+                <marker date="1521664820505" expanded="true" signature="235:970" ph="{...}" />
+                <marker date="1521664820505" expanded="true" signature="282:968" ph="{...}" />
+                <marker date="1521664820505" expanded="true" signature="399:465" ph="{...}" />
+                <marker date="1521664820505" expanded="true" signature="531:610" ph="{...}" />
+                <marker date="1521664820505" expanded="true" signature="673:793" ph="{...}" />
+                <marker date="1521664820505" expanded="true" signature="831:962" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductService.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NetCore2Demo.Business/Service/ProductService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="704">
+              <caret line="48" column="12" lean-forward="false" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+              <folding>
+                <marker date="1521661080251" expanded="false" signature="6:148" ph="..." />
+                <marker date="1521661080251" expanded="true" signature="189:1485" ph="{...}" />
+                <marker date="1521661080251" expanded="true" signature="241:1345" ph="{...}" />
+                <marker date="1521661080251" expanded="true" signature="256:463" ph="Constructors" />
+                <marker date="1521661080251" expanded="true" signature="381:443" ph="{...}" />
+                <marker date="1521661080251" expanded="true" signature="473:1339" ph="Operations" />
+                <marker date="1521661080251" expanded="true" signature="545:1084" ph="{...}" />
+                <marker date="1521661080251" expanded="true" signature="605:923" ph="{...}" />
+                <marker date="1521661080251" expanded="true" signature="660:909" ph="{...}" />
+                <marker date="1521661080251" expanded="true" signature="956:1046" ph="{...}" />
+                <marker date="1521661080251" expanded="true" signature="1132:1319" ph="{...}" />
+                <marker date="1521661080251" expanded="true" signature="1383:1483" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>GetDataBaseName</find>
+      <find>ValidateTenantId</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/NetCore2Demo.Business/Service/ProductService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NetCore2Demo/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NetCore2Demo/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NetCore2Demo.DataRepository/UnitOfWork/UnitOfWork.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NetCore2Demo/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NetCore2Demo/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NetCore2Demo/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NetCore2Demo.DataRepository/Context/DataContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NetCore2Demo.DataRepository/Context/IDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4520E90-02D3-43D3-950F-8A676F5A11D1/31/b566e243/DbContext.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/NetCore2Demo.DataRepository/Repositories/Repository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NetCore2Demo.DataRepository/Context/IContextFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NetCore2Demo.Entities/Config/ConnectionSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NetCore2Demo.DataRepository/Context/ContextFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A265BEBB-9641-429B-80FD-9ADD70F86962/dd/93fdfc8e/IdentityDbContext`1.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/NetCore2Demo/Views/Account/Login.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NetCore2Demo/Controllers/AccountController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NetCore2Demo.Entities/Config/ApplicationUser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NetCore2Demo.Entities/Dto/LoginModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/899ABC88-C3F1-4C7D-B7BA-444AD3BDFC76/27/e15c06eb/ExecutionContextSwitcher.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/NetCore2Demo.Entities/Dto/RegisterModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NetCore2Demo/Views/Account/Register.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/899ABC88-C3F1-4C7D-B7BA-444AD3BDFC76/4f/977b6b8d/AsyncTaskMethodBuilder.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/NetCore2Demo.Entities/Base/BaseEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NetCore2Demo.Entities/Domain/Product.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/NetCore2Demo.Entities/Class1.cs" />
+        <option value="$PROJECT_DIR$/NetCore2Demo.Entities/Base/BaseEntity.cs" />
+        <option value="$PROJECT_DIR$/NetCore2Demo.Entities/Domain/Product.cs" />
+        <option value="$PROJECT_DIR$/NetCore2Demo.DataRepository/Class1.cs" />
+        <option value="$PROJECT_DIR$/NetCore2Demo.DataRepository/Migrations/Configuration.cs" />
+        <option value="$PROJECT_DIR$/NetCore2Demo.DataRepository/App.config.xml" />
+        <option value="$PROJECT_DIR$/NetCore2Demo.DataRepository/App.config" />
+        <option value="$PROJECT_DIR$/NetCore2Demo.Business/Class1.cs" />
+        <option value="$PROJECT_DIR$/NetCore2Demo/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/NetCore2Demo.DataRepository/Context/DemoContext.cs" />
+        <option value="$PROJECT_DIR$/NetCore2Demo.DataRepository/Repositories/EFRepository.cs" />
+        <option value="$PROJECT_DIR$/NetCore2Demo.DataRepository/UnitOfWork/EFUnitOfWork.cs" />
+        <option value="$PROJECT_DIR$/NetCore2Demo.DataRepository/Context/Data.cs" />
+        <option value="$PROJECT_DIR$/NetCore2Demo.DataRepository/Context/IDbContext.cs" />
+        <option value="$PROJECT_DIR$/NetCore2Demo.DataRepository/Repositories/Repository.cs" />
+        <option value="$PROJECT_DIR$/NetCore2Demo.DataRepository/Context/IContextFactory.cs" />
+        <option value="$PROJECT_DIR$/NetCore2Demo.DataRepository/UnitOfWork/UnitOfWork.cs" />
+        <option value="$PROJECT_DIR$/NetCore2Demo.Entities/Config/ConnectionSettings.cs" />
+        <option value="$PROJECT_DIR$/NetCore2Demo.DataRepository/Context/DatabaseManager.cs" />
+        <option value="$PROJECT_DIR$/NetCore2Demo/Filters/TenantHeaderOperationFilter.cs" />
+        <option value="$PROJECT_DIR$/NetCore2Demo.DataRepository/Context/ContextFactory.cs" />
+        <option value="$PROJECT_DIR$/NetCore2Demo/Views/Home/Index.cshtml" />
+        <option value="$PROJECT_DIR$/NetCore2Demo.Business/Service/ProductService.cs" />
+        <option value="$PROJECT_DIR$/NetCore2Demo/appsettings.json" />
+        <option value="$PROJECT_DIR$/NetCore2Demo.Entities/Config/JWTSettings.cs" />
+        <option value="$PROJECT_DIR$/NetCore2Demo.Entities/Config/JwtSettings.cs" />
+        <option value="$PROJECT_DIR$/NetCore2Demo/Middleware/JwtConfiguration.cs" />
+        <option value="$PROJECT_DIR$/NetCore2Demo.Entities/Dto/LoginModel.cs" />
+        <option value="$PROJECT_DIR$/NetCore2Demo.Entities/Dto/RegisterModel.cs" />
+        <option value="$PROJECT_DIR$/NetCore2Demo/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/NetCore2Demo/Views/Account/Register.cshtml" />
+        <option value="$PROJECT_DIR$/NetCore2Demo/Models/ApplicationUser.cs" />
+        <option value="$PROJECT_DIR$/NetCore2Demo/Startup.cs" />
+        <option value="$PROJECT_DIR$/NetCore2Demo.Entities/Config/ApplicationUser.cs" />
+        <option value="$PROJECT_DIR$/NetCore2Demo.DataRepository/Context/DataContext.cs" />
+        <option value="$PROJECT_DIR$/NetCore2Demo/Controllers/AccountController.cs" />
+        <option value="$PROJECT_DIR$/NetCore2Demo/Views/Account/Login.cshtml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1891" />
+    <option name="y" value="39" />
+    <option name="width" value="1848" />
+    <option name="height" value="1021" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="NetCore2Demo (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/NetCore2Demo/bin/Debug/netcoreapp2.0/NetCore2Demo.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NetCore2Demo" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:5000" />
+      </envs>
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/NetCore2Demo/NetCore2Demo.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.0" />
+      <browser url="http://localhost:5000" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b09d5284-b234-4ed5-9998-90f7fd44e152" name="Default" comment="" />
+      <created>1521458277659</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1521458277659</updated>
+      <workItem from="1521458280981" duration="32422000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="32422000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1920" y="22" width="1920" height="1058" extended-state="6" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281412" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32630098" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18849841" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39875388" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="19" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/NetCore2Demo.Entities/Class1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetCore2Demo.Entities/Base/BaseEntity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <marker date="1521458679867" expanded="true" signature="51:233" ph="{...}" />
+            <marker date="1521458679867" expanded="true" signature="90:231" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetCore2Demo.DataRepository/Class1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetCore2Demo.DataRepository/Migrations/Configuration.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="54" lean-forward="false" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetCore2Demo.DataRepository/App.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetCore2Demo.Business/Class1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetCore2Demo/Views/Shared/_Layout.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding>
+            <marker date="1521492477853" expanded="true" signature="16:3131" ph="&lt;html.../&gt;" />
+            <marker date="1521492477853" expanded="true" signature="23:846" ph="&lt;head.../&gt;" />
+            <marker date="1521492477853" expanded="true" signature="194:384" ph="&lt;environment.../&gt;" />
+            <marker date="1521492477853" expanded="true" signature="389:838" ph="&lt;environment.../&gt;" />
+            <marker date="1521492477853" expanded="true" signature="847:3123" ph="&lt;body.../&gt;" />
+            <marker date="1521492477853" expanded="true" signature="858:1728" ph="&lt;nav.../&gt;" />
+            <marker date="1521492477853" expanded="true" signature="919:1717" ph="&lt;div.../&gt;" />
+            <marker date="1521492477853" expanded="true" signature="955:1472" ph="&lt;div.../&gt;" />
+            <marker date="1521492477853" expanded="true" signature="999:1343" ph="&lt;button.../&gt;" />
+            <marker date="1521492477853" expanded="true" signature="1485:1702" ph="&lt;div.../&gt;" />
+            <marker date="1521492477853" expanded="true" signature="1540:1683" ph="&lt;ul.../&gt;" />
+            <marker date="1521492477853" expanded="true" signature="1733:1898" ph="&lt;div.../&gt;" />
+            <marker date="1521492477853" expanded="true" signature="1815:1887" ph="&lt;footer.../&gt;" />
+            <marker date="1521492477853" expanded="true" signature="1904:2158" ph="&lt;environment.../&gt;" />
+            <marker date="1521492477853" expanded="true" signature="2163:3067" ph="&lt;environment.../&gt;" />
+            <marker date="1521492477853" expanded="true" signature="2207:2555" ph="&lt;script.../&gt;" />
+            <marker date="1521492477853" expanded="true" signature="2564:2973" ph="&lt;script.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetCore2Demo/appsettings.Development.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetCore2Demo.DataRepository/Repositories/EFRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetCore2Demo.DataRepository/Context/DemoContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetCore2Demo/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1521458294086" expanded="true" signature="6:255" ph="..." />
+            <marker date="1521458294086" expanded="true" signature="279:600" ph="{...}" />
+            <marker date="1521458294086" expanded="true" signature="306:598" ph="{...}" />
+            <marker date="1521458294086" expanded="true" signature="359:417" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetCore2Demo.DataRepository/UnitOfWork/UnitOfWork.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-134">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <marker date="1521654863270" expanded="true" signature="6:138" ph="..." />
+            <marker date="1521654863270" expanded="true" signature="188:3332" ph="{...}" />
+            <marker date="1521654863270" expanded="true" signature="195:286" ph="/// The Entity Framework implementation of IUnitOfWork ... " />
+            <marker date="1521654863270" expanded="true" signature="335:2694" ph="{...}" />
+            <marker date="1521654863270" expanded="true" signature="350:412" ph="/// The DbContext ... " />
+            <marker date="1521654863270" expanded="true" signature="460:525" ph="/// The repositories ... " />
+            <marker date="1521654863270" expanded="true" signature="590:775" ph="/// Initializes a new instance of the &lt;see cref=&quot;UnitOfWork&quot; /&gt; class. ... " />
+            <marker date="1521654863270" expanded="true" signature="833:908" ph="{...}" />
+            <marker date="1521654863270" expanded="true" signature="918:1093" ph="/// Gets the repository. ... " />
+            <marker date="1521654863270" expanded="true" signature="1188:1620" ph="{...}" />
+            <marker date="1521654863270" expanded="true" signature="1241:1337" ph="{...}" />
+            <marker date="1521654863270" expanded="true" signature="1432:1543" ph="{...}" />
+            <marker date="1521654863270" expanded="true" signature="1630:1797" ph="/// Saves all pending changes ... " />
+            <marker date="1521654863270" expanded="true" signature="1825:1947" ph="{...}" />
+            <marker date="1521654863270" expanded="true" signature="1957:2033" ph="/// Disposes the current object ... " />
+            <marker date="1521654863270" expanded="true" signature="2063:2241" ph="{...}" />
+            <marker date="1521654863270" expanded="true" signature="2251:2399" ph="/// Disposes all external resources. ... " />
+            <marker date="1521654863270" expanded="true" signature="2444:2688" ph="{...}" />
+            <marker date="1521654863270" expanded="true" signature="2481:2678" ph="{...}" />
+            <marker date="1521654863270" expanded="true" signature="2539:2664" ph="{...}" />
+            <marker date="1521654863270" expanded="true" signature="2700:2789" ph="/// Contains functions to manipulate EF transactions ... " />
+            <marker date="1521654863270" expanded="true" signature="2836:3330" ph="{...}" />
+            <marker date="1521654863270" expanded="true" signature="2851:3036" ph="/// Gets the repository. ... " />
+            <marker date="1521654863270" expanded="true" signature="3135:3302" ph="/// Saves all pending changes ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetCore2Demo.DataRepository/Repositories/Repository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <marker date="1521654788033" expanded="true" signature="6:173" ph="..." />
+            <marker date="1521654788033" expanded="true" signature="225:8804" ph="{...}" />
+            <marker date="1521654788033" expanded="true" signature="232:381" ph="/// Generic repository, contains CRUD operation of EF entity ... " />
+            <marker date="1521654788033" expanded="true" signature="453:3265" ph="{...}" />
+            <marker date="1521654788033" expanded="true" signature="468:537" ph="/// EF data base context ... " />
+            <marker date="1521654788033" expanded="true" signature="592:676" ph="/// Used to query and save instances of ... " />
+            <marker date="1521654788033" expanded="true" signature="727:899" ph="/// Initializes a new instance of the &lt;see cref=&quot;Repository{T}&quot;/&gt; class. ... " />
+            <marker date="1521654788033" expanded="true" signature="945:1045" ph="{...}" />
+            <marker date="1521654788033" expanded="true" signature="1122:1191" ph="{...}" />
+            <marker date="1521654788033" expanded="true" signature="1255:1315" ph="{...}" />
+            <marker date="1521654788033" expanded="true" signature="1396:1467" ph="{...}" />
+            <marker date="1521654788033" expanded="true" signature="1543:1610" ph="{...}" />
+            <marker date="1521654788033" expanded="true" signature="1711:1779" ph="{...}" />
+            <marker date="1521654788033" expanded="true" signature="1896:1976" ph="{...}" />
+            <marker date="1521654788033" expanded="true" signature="2042:2093" ph="{...}" />
+            <marker date="1521654788033" expanded="true" signature="2155:2289" ph="{...}" />
+            <marker date="1521654788033" expanded="true" signature="2369:2437" ph="{...}" />
+            <marker date="1521654788033" expanded="true" signature="2544:2622" ph="{...}" />
+            <marker date="1521654788033" expanded="true" signature="2719:2805" ph="{...}" />
+            <marker date="1521654788033" expanded="true" signature="2897:2963" ph="{...}" />
+            <marker date="1521654788033" expanded="true" signature="3035:3107" ph="{...}" />
+            <marker date="1521654788033" expanded="true" signature="3187:3259" ph="{...}" />
+            <marker date="1521654788033" expanded="true" signature="3275:3436" ph="/// Interface for generic repository, contains CRUD operation of EF entity ... " />
+            <marker date="1521654788033" expanded="true" signature="3472:8802" ph="{...}" />
+            <marker date="1521654788033" expanded="true" signature="3487:3725" ph="/// Gets the specified identifier. ... " />
+            <marker date="1521654788033" expanded="true" signature="3765:4030" ph="/// Gets the specified identifier. Asynchronous version. ... " />
+            <marker date="1521654788033" expanded="true" signature="4081:4328" ph="/// Gets an entity by the keys specified in &lt;paramref name=&quot;keyValues&quot;/&gt; ... " />
+            <marker date="1521654788033" expanded="true" signature="4380:4552" ph="/// Generic find by predicate ... " />
+            <marker date="1521654788033" expanded="true" signature="4629:4904" ph="/// Generic find by predicate and option to include child entity ... " />
+            <marker date="1521654788033" expanded="true" signature="4997:5103" ph="/// Gets all. ... " />
+            <marker date="1521654788033" expanded="true" signature="5145:5366" ph="/// Gets all. With data pagination. ... " />
+            <marker date="1521654788033" expanded="true" signature="5431:5641" ph="/// Gets all and offers to include a related table ... " />
+            <marker date="1521654788033" expanded="true" signature="5697:7298" ph="///     &lt;para&gt; ... " />
+            <marker date="1521654788033" expanded="true" signature="7379:7667" ph="/// Gets all and offers to include 2 related tables ... " />
+            <marker date="1521654788033" expanded="true" signature="7740:7918" ph="/// Adds the specified entity. ... " />
+            <marker date="1521654788033" expanded="true" signature="7963:8171" ph="/// Deletes the specified &lt;paramref name=&quot;entity&quot;/&gt; ... " />
+            <marker date="1521654788033" expanded="true" signature="8219:8509" ph="/// Checks whether a entity matching the &lt;paramref name=&quot;predicate&quot;/&gt; exists ... " />
+            <marker date="1521654788033" expanded="true" signature="8577:8758" ph="/// Updates the specified entity. ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetCore2Demo/Filters/TenantHeaderOperationFilter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetCore2Demo.DataRepository/Context/DatabaseManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetCore2Demo.DataRepository/Context/IContextFactory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <marker date="1521654863273" expanded="true" signature="45:295" ph="{...}" />
+            <marker date="1521654863273" expanded="true" signature="84:293" ph="{...}" />
+            <marker date="1521654863273" expanded="true" signature="99:249" ph="/// Gets the database context. ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetCore2Demo.Entities/Domain/Product.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <marker date="1521458742562" expanded="false" signature="6:47" ph="..." />
+            <marker date="1521458742562" expanded="true" signature="87:525" ph="{...}" />
+            <marker date="1521458742562" expanded="true" signature="127:523" ph="{...}" />
+            <marker date="1521458742562" expanded="true" signature="158:257" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetCore2Demo.Entities/Config/ConnectionSettings.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <marker date="1521656363198" expanded="true" signature="38:393" ph="{...}" />
+            <marker date="1521656363198" expanded="true" signature="45:118" ph="/// Connection configuration options ... " />
+            <marker date="1521656363198" expanded="true" signature="154:391" ph="{...}" />
+            <marker date="1521656363198" expanded="true" signature="169:331" ph="/// Gets or sets the default connection. ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetCore2Demo/bundleconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetCore2Demo.Entities/Config/JwtSettings.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetCore2Demo/Middleware/JwtConfiguration.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetCore2Demo.Entities/Dto/RegisterModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding>
+            <marker date="1521664313097" expanded="true" signature="81:331" ph="{...}" />
+            <marker date="1521664313097" expanded="true" signature="114:329" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetCore2Demo/Views/Home/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="50" selection-end-column="7" />
+          <folding>
+            <marker date="1521660819884" expanded="true" signature="51:92" ph="@..." />
+            <marker date="1521660819884" expanded="true" signature="94:989" ph="&lt;div.../&gt;" />
+            <marker date="1521660819884" expanded="true" signature="120:982" ph="&lt;div.../&gt;" />
+            <marker date="1521660819884" expanded="true" signature="159:971" ph="&lt;table.../&gt;" />
+            <marker date="1521660819884" expanded="true" signature="235:465" ph="&lt;tr.../&gt;" />
+            <marker date="1521660819884" expanded="true" signature="256:307" ph="&lt;th.../&gt;" />
+            <marker date="1521660819884" expanded="true" signature="324:378" ph="&lt;th.../&gt;" />
+            <marker date="1521660819884" expanded="true" signature="395:447" ph="&lt;th.../&gt;" />
+            <marker date="1521660819884" expanded="true" signature="478:954" ph="&lt;tbody.../&gt;" />
+            <marker date="1521660819884" expanded="true" signature="498:933" ph="@..." />
+            <marker date="1521660819884" expanded="true" signature="526:933" ph="{...}" />
+            <marker date="1521660819884" expanded="true" signature="557:919" ph="&lt;tr.../&gt;" />
+            <marker date="1521660819884" expanded="true" signature="582:677" ph="&lt;td.../&gt;" />
+            <marker date="1521660819884" expanded="true" signature="698:796" ph="&lt;td.../&gt;" />
+            <marker date="1521660819884" expanded="true" signature="817:897" ph="&lt;td.../&gt;" />
+            <marker date="1521660819884" expanded="true" signature="1014:1588" ph="&lt;form.../&gt;" />
+            <marker date="1521660819884" expanded="true" signature="1075:1214" ph="&lt;div.../&gt;" />
+            <marker date="1521660819884" expanded="true" signature="1219:1367" ph="&lt;div.../&gt;" />
+            <marker date="1521660819884" expanded="true" signature="1372:1516" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetCore2Demo.Entities/Dto/LoginModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="38" />
+          <folding>
+            <marker date="1521664313103" expanded="true" signature="81:235" ph="{...}" />
+            <marker date="1521664313103" expanded="true" signature="111:233" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetCore2Demo/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetCore2Demo/Views/Account/Register.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding>
+            <marker date="1521667603632" expanded="true" signature="0:60" ph="@..." />
+            <marker date="1521667603632" expanded="true" signature="81:485" ph="&lt;form.../&gt;" />
+            <marker date="1521667603632" expanded="true" signature="139:266" ph="&lt;div.../&gt;" />
+            <marker date="1521667603632" expanded="true" signature="271:409" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/899ABC88-C3F1-4C7D-B7BA-444AD3BDFC76/4f/977b6b8d/AsyncTaskMethodBuilder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="59" column="8" lean-forward="false" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/899ABC88-C3F1-4C7D-B7BA-444AD3BDFC76/27/e15c06eb/ExecutionContextSwitcher.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding>
+            <marker date="1521667944783" expanded="true" signature="0:347" ph="/* Decompiled with JetBrains decompiler ... */" />
+            <marker date="1521667944783" expanded="true" signature="375:814" ph="{...}" />
+            <marker date="1521667944783" expanded="true" signature="420:812" ph="{...}" />
+            <marker date="1521667944783" expanded="true" signature="548:808" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetCore2Demo.DataRepository/Context/IDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="54" column="93" lean-forward="false" selection-start-line="54" selection-start-column="93" selection-end-line="54" selection-end-column="93" />
+          <folding>
+            <marker date="1521654579994" expanded="false" signature="6:90" ph="..." />
+            <marker date="1521654579994" expanded="true" signature="137:5488" ph="{...}" />
+            <marker date="1521654579994" expanded="true" signature="170:5486" ph="{...}" />
+            <marker date="1521654579994" expanded="true" signature="185:839" ph="///     Saves all changes made in this context to the database. ... " />
+            <marker date="1521654579994" expanded="true" signature="876:1820" ph="///     Saves all changes made in this context to the database. ... " />
+            <marker date="1521654579994" expanded="true" signature="1887:3149" ph="///     Asynchronously saves all changes made in this context to the database. ... " />
+            <marker date="1521654579994" expanded="true" signature="3232:4784" ph="///     Asynchronously saves all changes made in this context to the database. ... " />
+            <marker date="1521654579994" expanded="true" signature="4899:5002" ph="///     Releases the allocated resources for this context. ... " />
+            <marker date="1521654579994" expanded="true" signature="5036:5407" ph="///     Creates a &lt;see cref=&quot;T:Microsoft.EntityFrameworkCore.DbSet`1&quot; /&gt; that can be used to query and save insta ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B4520E90-02D3-43D3-950F-8A676F5A11D1/31/b566e243/DbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="49" column="15" lean-forward="false" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A265BEBB-9641-429B-80FD-9ADD70F86962/dd/93fdfc8e/IdentityDbContext`1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetCore2Demo.DataRepository/Context/ContextFactory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding>
+            <marker date="1521659540840" expanded="false" signature="6:151" ph="..." />
+            <marker date="1521659540840" expanded="true" signature="198:1755" ph="{...}" />
+            <marker date="1521659540840" expanded="true" signature="205:320" ph="/// Entity Framework context service ... " />
+            <marker date="1521659540840" expanded="true" signature="370:1753" ph="{...}" />
+            <marker date="1521659540840" expanded="true" signature="459:726" ph="/// Initializes a new instance of the &lt;see cref=&quot;ContextFactory&quot;/&gt; class. ... " />
+            <marker date="1521659540840" expanded="true" signature="804:880" ph="{...}" />
+            <marker date="1521659540840" expanded="true" signature="1061:1458" ph="{...}" />
+            <marker date="1521659540840" expanded="true" signature="1508:1747" ph="{...}" />
+            <marker date="1521659540840" expanded="true" signature="1604:1737" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetCore2Demo/Models/ApplicationUser.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetCore2Demo.Entities/Config/ApplicationUser.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <marker date="1521672892191" expanded="true" signature="76:149" ph="{...}" />
+            <marker date="1521672892191" expanded="true" signature="126:147" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetCore2Demo.DataRepository/Context/DataContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1521673002042" expanded="true" signature="6:165" ph="..." />
+            <marker date="1521673002042" expanded="true" signature="212:876" ph="{...}" />
+            <marker date="1521673002042" expanded="true" signature="292:874" ph="{...}" />
+            <marker date="1521673002042" expanded="true" signature="307:477" ph="/// Initializes a new instance of the &lt;see cref=&quot;DataContext&quot;/&gt; class. ... " />
+            <marker date="1521673002042" expanded="true" signature="558:578" ph="{...}" />
+            <marker date="1521673002042" expanded="true" signature="588:671" ph="/// Get or sets the product data model ... " />
+            <marker date="1521673002042" expanded="true" signature="800:868" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetCore2Demo/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="50" column="36" lean-forward="false" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+          <folding>
+            <marker date="1521672212823" expanded="true" signature="6:519" ph="..." />
+            <marker date="1521672212823" expanded="true" signature="543:4335" ph="{...}" />
+            <marker date="1521672212823" expanded="true" signature="570:4333" ph="{...}" />
+            <marker date="1521672212823" expanded="true" signature="624:1012" ph="{...}" />
+            <marker date="1521672212823" expanded="true" signature="1239:3600" ph="{...}" />
+            <marker date="1521672212823" expanded="true" signature="2177:2923" ph="{...}" />
+            <marker date="1521672212823" expanded="true" signature="2997:3588" ph="{...}" />
+            <marker date="1521672212823" expanded="true" signature="3178:3278" ph="/* If the LoginPath isn't set, ASP.NET Core defaults ... */" />
+            <marker date="1521672212823" expanded="true" signature="3349:3463" ph="/* If the AccessDeniedPath isn't set, ASP.NET Core defaults ... */" />
+            <marker date="1521672212823" expanded="true" signature="3788:4327" ph="{...}" />
+            <marker date="1521672212823" expanded="true" signature="3835:3912" ph="{...}" />
+            <marker date="1521672212823" expanded="true" signature="3929:4013" ph="{...}" />
+            <marker date="1521672212823" expanded="true" signature="4118:4289" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetCore2Demo.Business/Service/ProductService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="48" column="12" lean-forward="false" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+          <folding>
+            <marker date="1521661080251" expanded="false" signature="6:148" ph="..." />
+            <marker date="1521661080251" expanded="true" signature="189:1485" ph="{...}" />
+            <marker date="1521661080251" expanded="true" signature="241:1345" ph="{...}" />
+            <marker date="1521661080251" expanded="true" signature="256:463" ph="Constructors" />
+            <marker date="1521661080251" expanded="true" signature="381:443" ph="{...}" />
+            <marker date="1521661080251" expanded="true" signature="473:1339" ph="Operations" />
+            <marker date="1521661080251" expanded="true" signature="545:1084" ph="{...}" />
+            <marker date="1521661080251" expanded="true" signature="605:923" ph="{...}" />
+            <marker date="1521661080251" expanded="true" signature="660:909" ph="{...}" />
+            <marker date="1521661080251" expanded="true" signature="956:1046" ph="{...}" />
+            <marker date="1521661080251" expanded="true" signature="1132:1319" ph="{...}" />
+            <marker date="1521661080251" expanded="true" signature="1383:1483" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetCore2Demo/Views/Account/Login.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding>
+            <marker date="1521673427727" expanded="true" signature="0:57" ph="@..." />
+            <marker date="1521673427727" expanded="true" signature="156:558" ph="&lt;form.../&gt;" />
+            <marker date="1521673427727" expanded="true" signature="211:338" ph="&lt;div.../&gt;" />
+            <marker date="1521673427727" expanded="true" signature="343:481" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetCore2Demo/Controllers/HomeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding>
+            <marker date="1521664820505" expanded="false" signature="6:199" ph="..." />
+            <marker date="1521664820505" expanded="true" signature="235:970" ph="{...}" />
+            <marker date="1521664820505" expanded="true" signature="282:968" ph="{...}" />
+            <marker date="1521664820505" expanded="true" signature="399:465" ph="{...}" />
+            <marker date="1521664820505" expanded="true" signature="531:610" ph="{...}" />
+            <marker date="1521664820505" expanded="true" signature="673:793" ph="{...}" />
+            <marker date="1521664820505" expanded="true" signature="831:962" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetCore2Demo/Controllers/AccountController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+          <folding>
+            <marker date="1521673002036" expanded="true" signature="6:179" ph="..." />
+            <marker date="1521673002036" expanded="true" signature="215:2607" ph="{...}" />
+            <marker date="1521673002036" expanded="true" signature="302:2605" ph="{...}" />
+            <marker date="1521673002036" expanded="true" signature="604:708" ph="{...}" />
+            <marker date="1521673002036" expanded="true" signature="779:826" ph="{...}" />
+            <marker date="1521673002036" expanded="true" signature="900:947" ph="{...}" />
+            <marker date="1521673002036" expanded="true" signature="1045:1881" ph="{...}" />
+            <marker date="1521673002036" expanded="true" signature="1091:1770" ph="{...}" />
+            <marker date="1521673002036" expanded="true" signature="1122:1284" ph="/* This doesn't count login failures towards account lockout ... */" />
+            <marker date="1521673002036" expanded="true" signature="1454:1573" ph="{...}" />
+            <marker date="1521673002036" expanded="true" signature="1594:1756" ph="{...}" />
+            <marker date="1521673002036" expanded="true" signature="1985:2599" ph="{...}" />
+            <marker date="1521673002036" expanded="true" signature="2031:2488" ph="{...}" />
+            <marker date="1521673002036" expanded="true" signature="2263:2457" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

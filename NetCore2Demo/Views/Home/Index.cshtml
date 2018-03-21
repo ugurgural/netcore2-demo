@@ -1,0 +1,51 @@
+﻿@model IList<NetCore2Demo.Entities.Domain.Product>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="wrapper">
+    <div class="table-responsive">
+        <table class="table table-striped table-condensed table-hover">
+            <tr>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Barcode
+                </th>
+                <th>
+                    Price
+                </th>
+            </tr>
+            <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Barcode)
+                    </td>
+                    <td>
+                        @item.Price.ToString("C")
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+</div>
+<h2>Yeni Ürün Ekle</h2>
+<form action="@Url.Action("SaveProduct")" method="post">
+    <div class="form-group">
+        <input type="text" class="form-control" id="Name" name="Name" placeholder="Enter Product Name">
+    </div>
+    <div class="form-group">
+        <input type="text" class="form-control" id="Barcode" name="Barcode" placeholder="Enter Product Barcode">
+    </div>
+    <div class="form-group">
+        <input type="number" class="form-control" id="Price" name="Price" placeholder="Enter Product Price">
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>

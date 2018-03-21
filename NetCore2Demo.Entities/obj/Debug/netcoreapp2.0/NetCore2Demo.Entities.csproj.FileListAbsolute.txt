@@ -1,0 +1,8 @@
+/Users/mehmetugurgural/Git/NetCore2Demo/NetCore2Demo.Entities/bin/Debug/netcoreapp2.0/NetCore2Demo.Entities.deps.json
+/Users/mehmetugurgural/Git/NetCore2Demo/NetCore2Demo.Entities/bin/Debug/netcoreapp2.0/NetCore2Demo.Entities.dll
+/Users/mehmetugurgural/Git/NetCore2Demo/NetCore2Demo.Entities/bin/Debug/netcoreapp2.0/NetCore2Demo.Entities.pdb
+/Users/mehmetugurgural/Git/NetCore2Demo/NetCore2Demo.Entities/obj/Debug/netcoreapp2.0/NetCore2Demo.Entities.csproj.CoreCompileInputs.cache
+/Users/mehmetugurgural/Git/NetCore2Demo/NetCore2Demo.Entities/obj/Debug/netcoreapp2.0/NetCore2Demo.Entities.AssemblyInfoInputs.cache
+/Users/mehmetugurgural/Git/NetCore2Demo/NetCore2Demo.Entities/obj/Debug/netcoreapp2.0/NetCore2Demo.Entities.AssemblyInfo.cs
+/Users/mehmetugurgural/Git/NetCore2Demo/NetCore2Demo.Entities/obj/Debug/netcoreapp2.0/NetCore2Demo.Entities.dll
+/Users/mehmetugurgural/Git/NetCore2Demo/NetCore2Demo.Entities/obj/Debug/netcoreapp2.0/NetCore2Demo.Entities.pdb
